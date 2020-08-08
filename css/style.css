@@ -1,0 +1,68 @@
+/*html{
+	scroll-behavior: smooth;
+}*/
+.hero_bg{
+	background: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	padding: 200px 0;
+	position: relative;
+}
+.overlay{
+	background: rgba(0,0,0,0.6);
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+}
+footer .fab{
+	font-size: 20px;
+}
+.section_padding{
+	padding: 100px 0;
+}
+.gallery_border{
+	border-radius: 0;
+}
+.mix a{
+	position: relative;
+	display: inline-block;
+}
+.zoom_effect{
+	background: rgba(0,0,0,0.5);
+	top: 0;
+	bottom: 0;
+	width: 0;
+	position: absolute;
+	transition: 0.5s;
+	overflow: hidden;
+}
+.mix a:hover .zoom_effect{
+	width: 100%;
+}
+.zoom_icon{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #f1c40f;
+	padding: 10px 15px;
+	position: absolute;
+	color: #fff;
+	font-weight: 200;
+}
+.service_box{
+	background: #fff;
+	padding: 70px 30px;
+	line-height: 2;
+}
+.service_box i{
+	color: #f1c40f;
+}
+.line{
+	width: 200px;
+	height: 2px;
+	background-color: #f1c40f;
+	margin: 0 auto;
+}
